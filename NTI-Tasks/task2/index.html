@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Contact Form</h1>
+      <div class="form-container">
+        <div class="form-section">
+          <form action="post">
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Your Name"
+              name="name"
+              id="name"
+              required
+            />
+            <input
+              type="email"
+              class="input-field"
+              placeholder="Your Email Address"
+              name="email"
+              id="email"
+              required
+            />
+            <div class="inline-fields">
+              <input
+                type="text"
+                class="input-field custom-inline"
+                placeholder="Company"
+                name="company"
+                id="company"
+                required
+              />
+              <input
+                type="tel"
+                class="input-field custom-inline"
+                pattern="[0-9]{10}"
+                placeholder="Phone"
+                name="phone"
+                id="phone"
+                required
+              />
+            </div>
+            <textarea
+              name="feedback"
+              id="feedback"
+              class="textarea-field"
+              placeholder="Your Message"
+              cols="25"
+              rows="5"
+              required
+            ></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+
+        <div class="info-section">
+          <h2 class="info-title">YOU CAN FIND US HERE</h2>
+          <p>SIMPLE ADDRESS SAMPLE STREET 123/45</p>
+          <p class="highlight-text">OR ON MAPS</p>
+          <ul>
+            <li>+3 10001 0123 3210</li>
+            <li>+3 10002 0456 3210</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

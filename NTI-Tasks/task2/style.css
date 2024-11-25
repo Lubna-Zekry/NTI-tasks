@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #00bcd4;
+  color: white;
+}
+
+/* Main Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Title Styling */
+.title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* Form Layout */
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.form-section,
+.info-section {
+  flex: 1;
+}
+.info-section {
+  margin: 30px;
+}
+/* Form Input Fields */
+.input-field,
+.textarea-field {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 20px;
+  border: none;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.inline-fields {
+  display: flex;
+  gap: 20px;
+}
+
+.custom-inline {
+  display: inline-block;
+  width: 48%;
+  margin-bottom: 15px;
+}
+
+/* Textarea Styling */
+.textarea-field {
+  resize: none;
+}
+
+/* Submit Button */
+.submit-btn {
+  padding: 10px;
+  width: 40%;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #fec61f;
+  color: black;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  display: block;
+  padding: 15px;
+}
+
+.submit-btn:hover {
+  background-color: #e0a800;
+}
+
+/* Info Section */
+.info-title {
+  font-size: 30px;
+}
+
+.highlight-text {
+  font-weight: bold;
+  color: #ffd700;
+}
+.info-section ul {
+    list-style-position: inside; 
+    padding-left: 0;
+  }
+  
+  .info-section ul li {
+    margin-bottom: 5px;
+  }
+  
