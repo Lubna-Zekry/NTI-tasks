@@ -263,18 +263,111 @@ img[alt="mock"] {
 
 /* testominal section */
 .card-testm {
-    margin-bottom: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    height: 200px;
-   margin-left: 10px;
-   margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  height: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-.testm-img{
-  height:100px !important;
+.testm-img {
+  height: 100px !important;
 }
 
+
+/* last section */
+.talk-us {
+  background-color: #007bff;
+  padding: 20px 0;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.talk-us .container {
+  z-index: 2;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.talk-us h4 {
+  color: #ffffff;
+  font-size: 2rem;
+  margin: 0 0 15px;
+}
+
+.talk-us .btn-custom {
+  background-color: #ffffff;
+  color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.talk-us .btn-custom:hover {
+  background-color: #e0e0e0;
+}
+
+.talk-us::before {
+  content: "\f879";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.1);
+  font-size: 120px;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* footer */
+.footer {
+  padding: 40px 20px;
+  background-color: #1a1a1a;
+}
+.footer h5 {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+  padding-bottom: 5px;
+  color: #fff;
+}
+.footer-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer p {
+  color: #fff;
+}
+.footer a:hover {
+  color: #fff;
+}
+.footer .tag {
+  display: inline-block;
+  background-color: #fff;
+  color: black;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.footer .tag:hover {
+  background-color: #007bff;
+}
 .blue-lines {
   display: flex;
   flex-direction: column;
@@ -293,4 +386,3 @@ img[alt="mock"] {
 .long {
   width: 100px;
 }
-

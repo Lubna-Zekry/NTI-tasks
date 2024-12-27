@@ -28,7 +28,7 @@ dots.forEach((dot, i) => {
   });
 });
 
-// Start auto-sliding 
+// Start auto-sliding
 setInterval(autoSlide, 4000);
 
 // Create slide content dynamically (exclude the first slide)
@@ -112,63 +112,77 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(counter);
   });
 });
-  
+
 // team section
 const teamMembers = [
   {
-      name: "Jen Whyan",
-      title: "Founder",
-      image: "images/team1.png",
-      description: "Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris....",
-      social: ["facebook", "twitter", "linkedin", "google-plus", "tumblr"]
+    name: "Jen Whyan",
+    title: "Founder",
+    image: "images/team1.png",
+    description:
+      "Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris....",
+    social: ["facebook", "twitter", "linkedin", "google-plus", "tumblr"],
   },
   {
-      name: "mical peterson",
-      title: "Founder",
-      image: "images/team2.png",
-      description: "Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.",
-      social: ["facebook", "twitter", "linkedin", "google-plus", "tumblr"]
+    name: "mical peterson",
+    title: "Founder",
+    image: "images/team2.png",
+    description:
+      "Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.",
+    social: ["facebook", "twitter", "linkedin", "google-plus", "tumblr"],
   },
   {
-      name: "sara corner",
-      title: "Founder",
-      image: "images/team3.png",
-      description: "Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.",
-      social: ["facebook", "twitter", "linkedin", "google-plus", "tumblr"]
+    name: "sara corner",
+    title: "Founder",
+    image: "images/team3.png",
+    description:
+      "Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.",
+    social: ["facebook", "twitter", "linkedin", "google-plus", "tumblr"],
   },
   {
-      name: "milly jackson",
-      title: "Founder",
-      image: "images/team4.png",
-      description: "Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.",
-      social: ["facebook", "twitter", "linkedin", "google-plus", "tumblr"]
+    name: "milly jackson",
+    title: "Founder",
+    image: "images/team4.png",
+    description:
+      "Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.",
+    social: ["facebook", "twitter", "linkedin", "google-plus", "tumblr"],
   },
   {
-      name: "clark jackson",
-      title: "Founder",
-      image: "images/team5.png",
-      description: "Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.",
-      social: ["facebook", "twitter", "linkedin", "google-plus", "tumblr"]
+    name: "clark jackson",
+    title: "Founder",
+    image: "images/team5.png",
+    description:
+      "Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.",
+    social: ["facebook", "twitter", "linkedin", "google-plus", "tumblr"],
   },
   {
-      name: "john jojo",
-      title: "Founder",
-      image: "images/team6.png",
-      description: "Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.",
-      social: ["facebook", "twitter", "linkedin", "google-plus", "tumblr"]
+    name: "john jojo",
+    title: "Founder",
+    image: "images/team6.png",
+    description:
+      "Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.",
+    social: ["facebook", "twitter", "linkedin", "google-plus", "tumblr"],
   },
 ];
 
 const container = document.querySelector("#team-members-container");
 
-teamMembers.forEach(member => {
+teamMembers.forEach((member) => {
   const memberDiv = document.createElement("div");
-  memberDiv.classList.add("col-md-4", "col-sm-6", "members", "my-3", "position-relative");
+  memberDiv.classList.add(
+    "col-md-4",
+    "col-sm-6",
+    "members",
+    "my-3",
+    "position-relative"
+  );
 
   memberDiv.innerHTML = `
       <div class="w-75 mx-auto">
           <div class="text-center">
-              <img src="${member.image}" alt="${member.name}" class="img-fluid mx-auto">
+              <img src="${member.image}" alt="${
+    member.name
+  }" class="img-fluid mx-auto">
           </div>
           <div class="text-center bg-white position-absolute mx-auto" id="team">
               <div class="text-center mt-2">
@@ -176,9 +190,16 @@ teamMembers.forEach(member => {
                   <p class="text-primary">${member.title}</p>
               </div>
               <div class="team-line text-center" id="team-info">
-                  <p class="my-4 opacity-75 w-75 mx-auto">${member.description}</p>
+                  <p class="my-4 opacity-75 w-75 mx-auto">${
+                    member.description
+                  }</p>
                   <div class="team-bottom bg-primary w-75 mx-auto">
-                      ${member.social.map(icon => `<a target="_blank" href=""><i class="fa-brands fa-${icon}"></i></a>`).join('')}
+                      ${member.social
+                        .map(
+                          (icon) =>
+                            `<a target="_blank" href=""><i class="fa-brands fa-${icon}"></i></a>`
+                        )
+                        .join("")}
                   </div>
               </div>
           </div>
@@ -188,16 +209,15 @@ teamMembers.forEach(member => {
 });
 
 // Testimonial section
-$(document).ready(function(){
-  $('.slider-test').slick({
-      slidesToShow: 2,
-      slidesToScroll: 2,
-      infinite: true,
-      autoplay: true, 
-      autoplaySpeed: 2000, 
-      arrows: true, 
-      prevArrow: $('.prev-btn'), 
-      nextArrow: $('.next-btn') 
+$(document).ready(function () {
+  $(".slider-test").slick({
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: true,
+    prevArrow: $(".prev-btn"),
+    nextArrow: $(".next-btn"),
   });
 });
-
