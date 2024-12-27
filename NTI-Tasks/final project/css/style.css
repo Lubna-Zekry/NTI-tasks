@@ -5,13 +5,18 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
-/* navbar */
-#nav1 {
-  height: 45px;
+/* navbar*/
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5em !important;
 }
 
-#navigation {
-  height: 100px;
+.navbar-nav .nav-item {
+  margin-right: 1rem;
+}
+
+.dropdown-menu {
+  font-size: 1.1rem;
 }
 /* hero section */
 .slide {
@@ -274,7 +279,6 @@ img[alt="mock"] {
 .testm-img {
   height: 100px !important;
 }
-
 
 /* last section */
 .talk-us {

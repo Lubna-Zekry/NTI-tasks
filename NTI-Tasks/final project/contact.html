@@ -21,295 +21,307 @@
     <link rel="stylesheet" href="./css/contact.css" />
   </head>
   <body>
-    <!-- first navbar -->
-    <nav
-      class="navbar navbar-expand-lg text-white bg-primary container-fluid col-md-6 col-sm-6 col-lg-12"
-      id="nav1"
+    <!-- First Navbar -->
+<nav
+class="navbar navbar-expand-lg text-white bg-primary container-fluid col-md-6 col-sm-6 col-lg-12"
+id="nav1"
+>
+<div class="container d-flex justify-content-between">
+  <div class="d-flex align-items-center justify-content-center">
+    <a href="#" class="text-white mx-2"
+      ><i class="fa-brands fa-facebook-f"></i
+    ></a>
+    <a href="#" class="text-white mx-2"
+      ><i class="fa-brands fa-twitter"></i
+    ></a>
+    <a href="#" class="text-white mx-2"
+      ><i class="fa-brands fa-linkedin-in"></i
+    ></a>
+    <a href="#" class="text-white mx-2"
+      ><i class="fa-brands fa-instagram"></i
+    ></a>
+    <a href="#" class="text-white mx-2"
+      ><i class="fa-brands fa-google-plus-g"></i
+    ></a>
+    <p class="border py-3 mx-1 my-2"></p>
+    <span class="text-white"
+      ><i class="fa-solid fa-location-dot mx-3"></i>267 Park Avenue New York,
+      NY 90210</span
     >
-      <div class="container d-flex justify-content-between">
-        <div class="d-flex align-items-center justify-content-center">
-          <a href="#" class="text-white mx-2"
-            ><i class="fa-brands fa-facebook-f"></i
-          ></a>
-          <a href="#" class="text-white mx-2"
-            ><i class="fa-brands fa-twitter"></i
-          ></a>
-          <a href="#" class="text-white mx-2"
-            ><i class="fa-brands fa-linkedin-in"></i
-          ></a>
-          <a href="#" class="text-white mx-2"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="#" class="text-white mx-2"
-            ><i class="fa-brands fa-google-plus-g"></i
-          ></a>
-          <p class="border py-3 mx-1 my-2"></p>
-          <span class="text-white"
-            ><i class="fa-solid fa-location-dot mx-3"></i>267 Park Avenue New
-            York, NY 90210</span
-          >
-        </div>
-        <ul
-          class="d-flex align-items-center justify-content-center list-unstyled my-2"
+  </div>
+  <ul
+    class="d-flex align-items-center justify-content-center list-unstyled my-2"
+  >
+    <li class="text-white mx-2">
+      <i class="fa-regular fa-envelope"></i>
+      <span type="email" class="text-white h6 mx-2">Quick Email</span>
+    </li>
+    <li>
+      <p class="border py-3 mx-1 my-2"></p>
+    </li>
+    <li class="text-white mx-2">
+      <i class="fa-solid fa-phone-volume"></i>
+      <span type="phone" class="text-white h6 mx-2">+1 (409) 987-5874</span>
+    </li>
+  </ul>
+</div>
+</nav>
+
+<!-- Second Navbar -->
+<header
+class="header-theme-2 navbar navbar-expand-lg bg-white text-dark py-3 col-xs-12 col-md-9 col-sm-6 col-lg-12 sticky-top"
+id="navigation"
+>
+<div class="container">
+  <!-- Logo -->
+  <a class="navbar-brand" href="#">
+    <img
+      src="images/Trade-X-Logo.png"
+      alt="Trade X Logo"
+      class="img-fluid py-2"
+    />
+  </a>
+
+  <!-- Toggle Button -->
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar Links -->
+  <div class="collapse navbar-collapse ju" id="navbarNav">
+    <ul
+      class="navbar-nav ms-auto d-flex justify-content-between align-items-center"
+    >
+      <li class="nav-item dropdown active">
+        <a
+          class="nav-link dropdown-toggle"
+          href="./home.html"
+          id="navbarDropdown"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
         >
-          <li href="#" class="text-white mx-2">
-            <i class="fa-regular fa-envelope"></i>
-            <span type="email" class="text-white h6 mx-2">Quick Email</span>
+          Home
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="./home.html">Home01</a></li>
+          <li><a class="dropdown-item" href="./home.html">Home02</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="servicesDropdown"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Headers
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+          <li><a class="dropdown-item" href="#">Header Style 1</a></li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li><a class="dropdown-item" href="#">Header Style 2</a></li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li><a class="dropdown-item" href="#">Header Style 3</a></li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li><a class="dropdown-item" href="#">Header Style 4</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="blogDropdown"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Blog Post
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+          <li class="dropdown-submenu">
+            <a class="dropdown-item dropdown-toggle" href="#"
+              >Blog Grid</a
+            >
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Grid 2 Column</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Grid 3 Column</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Grid Left Sidebar</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Grid Right Sidebar</a>
+              </li>
+            </ul>
           </li>
           <li>
-            <p class="border py-3 mx-1 my-2"></p>
+            <hr class="dropdown-divider" />
           </li>
-          <li href="#" class="text-white mx-2">
-            <i class="fa-solid fa-phone-volume"></i>
-            <span type="phone" class="text-white h6 mx-2"
-              >+1 (409) 987-5874</span
+
+          <div class="btn-group dropstart">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="servicesDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
             >
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- second navbar -->
-    <header
-      class="header-theme-2 navbar navbar-expand-lg bg-white text-dark py-3 col-xs-12 col-md-9 col-sm-6 col-lg-12 sticky-top"
-      id="navigation"
-    >
-      <div class="container">
-        <div class="col-md-3 col-sm-3 logo">
-          <a href="#" class="text-white">
-            <img
-              src="images/Trade-X-Logo.png"
-              alt="Trade X Logo"
-              class="img-fluid py-2"
-            />
-          </a>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul
-            class="navbar-nav ms-auto d-flex justify-content-between align-items-center col-md-9 col-sm-6 col-lg-12"
-          >
-            <li class="nav-item dropdown active">
-              <a
-                class="nav-link dropdown-toggle"
-                href="./home.html"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Home
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="./home.html">Home01</a></li>
-                <li><a class="dropdown-item" href="./home.html">Home02</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="servicesDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Headers
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                <li><a class="dropdown-item" href="#">Header Style 1</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li><a class="dropdown-item" href="#">Header Style 2</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li><a class="dropdown-item" href="#">Header Style 3</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li><a class="dropdown-item" href="#">Header Style 4</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="blogDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Blog Post
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="blogDropdown">
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"
-                    >Blog Grid</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Grid 2 Column</a></li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li><a class="dropdown-item" href="#">Grid 3 Column</a></li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Grid Left Sidebar</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Grid Right Sidebar</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-
-                <div class="btn-group dropstart">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="servicesDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Blog Masonry
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Masonry 3 Column</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Masonry Left Sidebar</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#"
-                        >Masonry Right Sidebar</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li><a class="dropdown-item" href="#">Classes</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li><a class="dropdown-item" href="#">Blog Detail</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="servicesDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Services
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                <li><a class="dropdown-item" href="#">Full Width</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li><a class="dropdown-item" href="#">Service 2 Column</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li><a class="dropdown-item" href="#">Service 3 Column</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li><a class="dropdown-item" href="#">Service 4-column</a></li>
-              </ul>
-            </li>
-
-            <div class="dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="servicesDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Features
-              </a>
-              <ul class="dropdown-menu">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="blogDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
+              Blog Masonry
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#">Masonry 3 Column</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Masonry Left Sidebar</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  >Masonry Right Sidebar</a
                 >
-                  shortcodes
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="blogDropdown">
-                  <li>
-                    <a class="dropdown-item" href="#">portfolio-shortcode</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li><a class="dropdown-item" href="#">price-shortcode</a></li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">counter-shortcode</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">client-shortcode</a>
-                  </li>
-                </ul>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li><a class="dropdown-item" href="#">feature-2-column</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li><a class="dropdown-item" href="#">feature-3-column</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li><a class="dropdown-item" href="#">feature-4-column</a></li>
-              </ul>
-            </div>
+              </li>
+            </ul>
+          </div>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li><a class="dropdown-item" href="#">Classes</a></li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li><a class="dropdown-item" href="#">Blog Detail</a></li>
+        </ul>
+      </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="servicesDropdown"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Services
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+          <li><a class="dropdown-item" href="#">Full Width</a></li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li><a class="dropdown-item" href="#">Service 2 Column</a></li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li><a class="dropdown-item" href="#">Service 3 Column</a></li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li><a class="dropdown-item" href="#">Service 4-column</a></li>
+        </ul>
+      </li>
+
+      <div class="dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="servicesDropdown"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Features
+        </a>
+        <ul class="dropdown-menu">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="blogDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            shortcodes
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+            <li>
+              <a class="dropdown-item" href="#">portfolio-shortcode</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">price-shortcode</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">counter-shortcode</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">client-shortcode</a>
             </li>
           </ul>
-        </div>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li><a class="dropdown-item" href="#">feature-2-column</a></li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li><a class="dropdown-item" href="#">feature-3-column</a></li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li><a class="dropdown-item" href="#">feature-4-column</a></li>
+        </ul>
       </div>
-    </header>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</header>
 
     <!-- contact header -->
     <section class="position-relative container-fluid contact-section">

@@ -27,7 +27,7 @@
   </head>
 
   <body>
-    <!-- first navbar -->
+    <!-- First Navbar -->
     <nav
       class="navbar navbar-expand-lg text-white bg-primary container-fluid col-md-6 col-sm-6 col-lg-12"
       id="nav1"
@@ -58,14 +58,14 @@
         <ul
           class="d-flex align-items-center justify-content-center list-unstyled my-2"
         >
-          <li href="#" class="text-white mx-2">
+          <li class="text-white mx-2">
             <i class="fa-regular fa-envelope"></i>
             <span type="email" class="text-white h6 mx-2">Quick Email</span>
           </li>
           <li>
             <p class="border py-3 mx-1 my-2"></p>
           </li>
-          <li href="#" class="text-white mx-2">
+          <li class="text-white mx-2">
             <i class="fa-solid fa-phone-volume"></i>
             <span type="phone" class="text-white h6 mx-2"
               >+1 (409) 987-5874</span
@@ -74,29 +74,44 @@
         </ul>
       </div>
     </nav>
-    <!-- second navbar -->
+
+    <!-- Second Navbar -->
     <header
       class="header-theme-2 navbar navbar-expand-lg bg-white text-dark py-3 col-xs-12 col-md-9 col-sm-6 col-lg-12 sticky-top"
       id="navigation"
     >
       <div class="container">
-        <div class="col-md-3 col-sm-3 logo">
-          <a href="#" class="text-white">
-            <img
-              src="images/Trade-X-Logo.png"
-              alt="Trade X Logo"
-              class="img-fluid py-2"
-            />
-          </a>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/Trade-X-Logo.png"
+            alt="Trade X Logo"
+            class="img-fluid py-2"
+          />
+        </a>
+
+        <!-- Toggle Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse ju" id="navbarNav">
           <ul
-            class="navbar-nav ms-auto d-flex justify-content-between align-items-center col-md-9 col-sm-6 col-lg-12"
+            class="navbar-nav ms-auto d-flex justify-content-between align-items-center"
           >
             <li class="nav-item dropdown active">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="./home.html"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -105,14 +120,13 @@
                 Home
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Home01</a></li>
-                <li><a class="dropdown-item" href="#">Home02</a></li>
+                <li><a class="dropdown-item" href="./home.html">Home01</a></li>
+                <li><a class="dropdown-item" href="./home.html">Home02</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="#">About</a>
             </li>
-
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
