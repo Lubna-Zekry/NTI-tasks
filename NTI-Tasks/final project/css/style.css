@@ -333,6 +333,39 @@ img[alt="mock"] {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+/* clients section */
+.clients-section {
+  padding: 50px 0;
+  margin-bottom: 0 !important;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.clients-logos .client-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  min-height: 120px;
+}
+
+.clients-logos img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.client-img {
+  height: 500px;
+}
+
 /* footer */
 .footer {
   padding: 40px 20px;
