@@ -28,7 +28,7 @@ dots.forEach((dot, i) => {
   });
 });
 
-// Start auto-sliding every 3 seconds
+// Start auto-sliding 
 setInterval(autoSlide, 4000);
 
 // Create slide content dynamically (exclude the first slide)
@@ -186,3 +186,18 @@ teamMembers.forEach(member => {
   `;
   container.appendChild(memberDiv);
 });
+
+// Testimonial section
+$(document).ready(function(){
+  $('.slider-test').slick({
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      infinite: true,
+      autoplay: true, 
+      autoplaySpeed: 2000, 
+      arrows: true, 
+      prevArrow: $('.prev-btn'), 
+      nextArrow: $('.next-btn') 
+  });
+});
+

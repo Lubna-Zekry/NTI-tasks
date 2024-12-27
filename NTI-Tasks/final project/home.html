@@ -16,6 +16,11 @@
     />
     <link
       rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
       href="fontawesome-free-6.7.1-web/fontawesome-free-6.7.1-web/css/all.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
@@ -386,21 +391,17 @@
             sit amet, consectetur.
           </p>
 
-          <a href="#" class="btn btn-primary"> Learn More </a>
+          <a href="#" class="btn btn-primary rounded-5"> Learn More </a>
         </div>
       </div>
       <div
-        class="card col-md-6 col-sm-6 col-lg-6 col-xs-12 col-lg-3 col-xl-6 position-absolute my-3"
+        class="card col-md-6 col-sm-6 col-lg-6 col-xs-12 col-lg-3 col-xl-6 position-absolute my-5"
         id="second_card"
       >
         <div class="card-body">
-          <div class="d-flex align-items-start position-relative">
+          <div class="d-flex align-items-start">
             <div class="icon mr-3 align-items-center">
               <i class="fa-solid fa-bullhorn h5 mx-2 my-4"></i>
-              <span
-                class="col border border-1 py-5 top-1 start-1 position-absolute"
-              >
-              </span>
             </div>
             <div class="content mx-3">
               <h5 class="card-title">Marketing</h5>
@@ -410,13 +411,9 @@
               </p>
             </div>
           </div>
-          <div class="d-flex align-items-start position-relative my-3">
+          <div class="d-flex align-items-start my-3">
             <div class="icon mr-3 align-items-center">
               <i class="fa-solid fa-sliders h5 mx-2 my-4"></i>
-              <span
-                class="col border border-1 py-5 top-1 start-1 position-absolute"
-              >
-              </span>
             </div>
             <div class="content mx-3">
               <h5 class="card-title">great usability</h5>
@@ -426,13 +423,9 @@
               </p>
             </div>
           </div>
-          <div class="d-flex align-items-start position-relative my-3">
+          <div class="d-flex align-items-start my-3">
             <div class="icon mr-3 align-items-center">
               <i class="fa-solid fa-wand-magic-sparkles h5 mx-2 my-4"></i>
-              <span
-                class="col border border-1 py-5 top-1 start-1 position-absolute"
-              >
-              </span>
             </div>
             <div class="content mx-3">
               <h5 class="card-title">unique design</h5>
@@ -442,13 +435,9 @@
               </p>
             </div>
           </div>
-          <div class="d-flex align-items-start position-relative">
+          <div class="d-flex align-items-start">
             <div class="icon mr-3 align-items-center">
               <i class="fa-solid fa-thumbs-up h5 mx-2 my-4"></i>
-              <span
-                class="col border border-1 py-5 top-1 start-1 position-absolute"
-              >
-              </span>
             </div>
             <div class="content mx-3">
               <h5 class="card-title">quick & powerful</h5>
@@ -848,8 +837,12 @@
           <div
             class="d-flex justify-content-center align-items-center col-md-12 col-sm-12 col-lg-12"
           >
-            <a href="#" class="btn btn-primary rad2 py-3">Per / Month</a>
-            <a href="#" class="btn btn-primary bg-white text-primary rad3 py-3"
+            <a href="#" class="btn btn-primary left-rad py-3 px-4"
+              >Per / Month</a
+            >
+            <a
+              href="#"
+              class="btn btn-primary bg-white text-primary right-rad px-4 py-3"
               >Per / Year</a
             >
           </div>
@@ -909,7 +902,7 @@
               <hr />
               <a
                 href="#"
-                class="btn btn-primary w-75 d-block mx-auto h1 py-3 rad my-4"
+                class="btn btn-primary w-75 d-block mx-auto h1 py-3 rad my-4 rounded-5"
                 >GET STARTED NOW</a
               >
             </div>
@@ -971,7 +964,7 @@
               <hr />
               <a
                 href="#"
-                class="btn btn-primary w-75 d-block mx-auto h1 py-3 rad my-4"
+                class="btn btn-primary w-75 d-block mx-auto h1 py-3 rad my-4 rounded-5"
                 >GET STARTED NOW</a
               >
             </div>
@@ -1030,7 +1023,7 @@
               <hr />
               <a
                 href="#"
-                class="btn btn-primary w-75 d-block mx-auto h1 py-3 rad my-4"
+                class="btn btn-primary w-75 d-block mx-auto h1 py-3 rad my-4 rounded-5"
                 >GET STARTED NOW</a
               >
             </div>
@@ -1057,6 +1050,131 @@
         </div>
       </div>
     </footer>
+    <!-- Testimonial section -->
+
+    <section>
+      <div class="text-center mx-auto my-5">
+        <div
+          class="col-md-6 mx-auto d-flex justify-content-around align-items-center"
+        >
+          <div class="blue-lines mx-auto">
+            <span class="line short" id="lef"></span>
+            <span class="line long"></span>
+          </div>
+          <h3 class="title">Testimonial</h3>
+          <div class="blue-lines mx-auto">
+            <span class="line short"></span>
+            <span class="line long"></span>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mx-auto w-75 my-5">
+        <div class="slider-test">
+          <div class="slide-test">
+            <div class="card-testm">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="./images/t1.jpg"
+                    alt="Image 5"
+                    class="img-fluid testm-img"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <h3>John Doe</h3>
+                  <p class="text-primary">Marketing Manager</p>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-test">
+            <div class="card-testm">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="./images/t5.jpg"
+                    alt="Image 5"
+                    class="img-fluid testm-img"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <h3>John Doe</h3>
+                  <p class="text-primary">Marketing Manager</p>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-test">
+            <div class="card-testm">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="./images/t3.jpg"
+                    alt="Image 5"
+                    class="img-fluid testm-img"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <h3>John Doe</h3>
+                  <p class="text-primary">Marketing Manager</p>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-test">
+            <div class="card-testm">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="./images/t4.jpg"
+                    alt="Image 5"
+                    class="img-fluid testm-img"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <h3>John Doe</h3>
+                  <p class="text-primary">Marketing Manager</p>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-primary prev-btn left-rad">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="btn btn-primary next-btn right-rad">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
