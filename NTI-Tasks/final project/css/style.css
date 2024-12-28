@@ -11,13 +11,10 @@ body {
   padding: 0.5rem 1.5em !important;
 }
 
-.navbar-nav .nav-item {
-  margin-right: 1rem;
-}
-
 .dropdown-menu {
   font-size: 1.1rem;
 }
+
 /* hero section */
 .slide {
   display: none;
